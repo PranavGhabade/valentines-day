@@ -12,8 +12,8 @@ function Yes({ goToPage4 }) {
         <h2 className="yesTitle">Good Choice Sunflower 🌻</h2>
 
         <div className="imageRow">
-          <img src="/assets/image1.jpg" alt="teddy" />
-          <img src="/assets/image2.jpg" alt="teddy" />
+          <img src={`${import.meta.env.BASE_URL}assets/image1.jpg`} alt="teddy" />
+          <img src={`${import.meta.env.BASE_URL}assets/image2.jpg`} alt="teddy" />
         </div>
 
         <p className="yesText">
