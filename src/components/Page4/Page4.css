@@ -18,6 +18,7 @@
   padding: 40px 24px;
   border-radius: 24px;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+  color: #222;
 }
 
 .ideasTitle {
@@ -51,6 +52,7 @@
   width: 100%;
   max-width: 700px;
   text-align: center;
+  color: #222;
 }
 
 .soundtrackTitle {
