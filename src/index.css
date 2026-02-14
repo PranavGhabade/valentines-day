@@ -89,5 +89,13 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  color: #222;
+  background-color: #ffd6e8;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #222;
+  }
 }
 
