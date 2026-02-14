@@ -1,0 +1,84 @@
+.yesPage {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #ffd6e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;   
+  padding: 30px 20px;       
+  gap: 28px;                
+}
+
+
+.yesCard {
+  background: white;
+  width: 90%;
+  max-width: 480px;
+  padding: 32px 20px;        
+  border-radius: 22px;
+  text-align: center;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.emoji {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.yesTitle {
+  color: #6a1b9a;
+  margin-bottom: 16px;
+}
+
+.imageRow {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.imageRow img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.yesText {
+  font-size: 15px;
+}
+
+
+.smallCard {
+  background-color: #f3e5f5;
+  padding: 20px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+}
+
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;    
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.evilBtn {
+  padding: 8px 18px;
+  border-radius: 12px;
+  border: none;
+  background-color: #7b1fa2;
+  color: white;
+  cursor: pointer;
+}
+
+
+.dealText {
+  margin-top: 12px;
+  color: #6a1b9a;
+  font-weight: bold;
+}
